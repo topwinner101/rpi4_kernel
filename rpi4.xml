@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="8"/>
+	<remote fetch="https://github.com/topwinner101" name="topwinner101"/>
+	<project remote="topwinner101" revision="5ddf7fff992b065ee512878d2fe65f3e35d818cf" name="poky" path="sources/">
+		<linkfile src="README" dest="README"/>
+	</project>
+	<remote fetch="https://github.com/raspberrypi" name="raspberrypi"/>
+	<project remote="raspberrypi" revision="f4b5d0de4ffad239ed01ce08d49d4f7eeeccb1a6" name="linux" path="linux/"/>
+</manifest>
