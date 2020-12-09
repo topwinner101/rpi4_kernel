@@ -3,10 +3,6 @@
   <default sync-j="8"/>
 	<remote fetch="https://github.com/topwinner101" name="topwinner101"/>
 	<project remote="topwinner101" revision="main" name="rpi4_kernel" path="build/"/>
-	<remote fetch="https://github.com/topwinner101" name="topwinner101"/>
-	<project remote="topwinner101" revision="5ddf7fff992b065ee512878d2fe65f3e35d818cf" name="poky" path="sources/">
-		<linkfile src="README" dest="README"/>
-	</project>
 	<remote fetch="https://github.com/raspberrypi" name="raspberrypi"/>
 	<project remote="raspberrypi" revision="rpi-4.19.y" name="linux" path="linux/"/>
 </manifest>
