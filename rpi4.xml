@@ -8,5 +8,5 @@
 		<linkfile src="README" dest="README"/>
 	</project>
 	<remote fetch="https://github.com/raspberrypi" name="raspberrypi"/>
-	<project remote="raspberrypi/linux.git" revision="rpi-4.19.y" name="linux" path="linux/"/>
+	<project remote="raspberrypi" revision="rpi-4.19.y" name="linux" path="linux/"/>
 </manifest>
