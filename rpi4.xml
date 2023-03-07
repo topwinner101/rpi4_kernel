@@ -6,5 +6,5 @@
 		<linkfile src="README" dest="README"/>
 	</project>
 	<remote fetch="https://github.com/raspberrypi" name="raspberrypi"/>
-	<project remote="raspberrypi" revision="f4b5d0de4ffad239ed01ce08d49d4f7eeeccb1a6" name="linux" path="linux/"/>
+	<project remote="raspberrypi" revision="rpi-5.15.y" name="linux" path="linux/"/>
 </manifest>
