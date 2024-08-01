@@ -14,15 +14,19 @@ make  -j8   Image modules dtbs
 export  ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-  KERNEL=kernel7l
 
 //make config
+
 make  bcm2711_defconfig
 
 //make image, dtb
+
 make -j4 zImage modules dtbs
 
 //make modules
+
 sudo make modules_install
 
 //move image 
+
 sudo cp arch/arm/boot/dts/*.dtb /boot/
 
 sudo cp arch/arm/boot/dts/overlays/*.dtb* /boot/overlays/
