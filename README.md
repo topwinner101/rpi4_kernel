@@ -12,6 +12,7 @@ repo init -u https://github.com/topwinner101/rpi4_kernel/ -b main -m rpi4.xml
 
 
 //Cross-compiling
+
 sudo apt-get update
 
 sudo apt install git bc bison flex libssl-dev make libc6-dev libncurses5-dev
