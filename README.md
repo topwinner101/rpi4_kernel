@@ -1,4 +1,29 @@
+//sycn code
+mkdir ~/bin
+
+PATH=~/bin:$PATH
+
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+chmod a+x ~/bin/repo
+
+repo init -u https://github.com/topwinner101/rpi4_kernel/ -b main -m rpi4.xml
+
+
+
+//Cross-compiling
+sudo apt-get update
+
+sudo apt install git bc bison flex libssl-dev make libc6-dev libncurses5-dev
+
+sudo apt install crossbuild-essential-arm64
+
+sudo apt install crossbuild-essential-armhf
+
+
+
 rpi4 kernel:
+// linux git : git clone --depth=1 https://github.com/raspberrypi/linux 
 
 //Build sources
 
